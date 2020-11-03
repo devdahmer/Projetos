@@ -1,0 +1,73 @@
+*{
+    font-family:Arial;
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+
+.container{
+    width:100%;
+    height:45px;
+    color:#FFF;
+    display:flex;
+    background-color:#000;
+    justify-content: center;
+}
+.container a {
+    text-decoration:none;
+    color:#FFF;
+}
+.container a:hover{
+    background-color:#FFF;
+    color:#000;
+}
+
+.item1{
+    font-size:14px;
+    line-height:35px;
+    padding:5px;
+}
+
+.main h1{
+    display:flex;
+    justify-content: center;
+    margin-top:20px;
+    text-decoration:underline;
+}
+
+.main p{
+    font-size:15px;
+    margin-top:25px;
+    display:flex;
+    justify-content: center;
+}
+
+.conteudo_principal{
+    display:flex;
+    justify-content: center;
+    font-size:25px;
+    margin-top:30px;
+    margin-bottom:30px;
+    text-decoration:underline;
+}
+
+.conteudo_imagem{
+    width:900px;
+    height:600px;
+    display:flex;
+    align-content:center;
+    background-image:url('../images/tio bill.jpg');
+    background-size:cover;
+    background-position:center;
+    margin-left:160px;
+}
+
+p{
+    font-size:15px;
+    display:flex;
+    justify-content: flex-start;
+    color:#000;
+    margin-top:30px;
+    margin-left:15px;
+    margin-bottom:15px;
+}
