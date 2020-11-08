@@ -1,5 +1,5 @@
 # Projetos
-Projetos desenvolvidos com as principais tecnologias do merca
+Projetos desenvolvidos com as principais tecnologias do mercado
 
 Neste repositório, você encontrará diversos exemplos de projetos meus, desenvolvidos para fins didáticos e também para clientes.
 
