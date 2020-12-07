@@ -1,0 +1,127 @@
+*{
+    font-family:Arial;
+}
+.fundo{
+    width:100%;
+    height:1080px;
+    background-image:url('../images/fundo.jpeg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: 100%;
+    background-color:#FFF;
+}
+
+.menu-left{
+    list-style:none;
+    text-decoration:none;
+    color:#FFF;
+    display:flex;
+    justify-content: space-evenly;
+    padding-top:19px;
+    margin:5px;
+    border-bottom: 1px solid #FFF;
+}
+
+.menu-left a {
+    text-decoration:none;
+    color:#FFF;
+    text-shadow:0px 1px 0px #FFF;
+}
+
+.menu-left li{
+    padding:10px;    
+}
+.menu-left li:hover .submenu{
+    display:block;
+}
+.submenu{
+    width:128px;
+    height:128px;
+    background-color:#228B22;
+    position:absolute;
+    display:none;
+    opacity:0.90;
+}
+
+.submenuitem {
+    width:128px;
+    height:35px;
+    line-height: 30px;
+    padding-left:10px;
+}
+
+.submenuitem:hover {
+    background-color:#0d0e13;
+}
+
+
+.conteudo-principal{
+    width:600px;
+    height:600px;
+    background-color:#FFF;
+    margin-left:20px;
+    margin-top:55px;
+    box-shadow:10px 10px 10px #000;
+}
+
+.titulo-video{
+    color:#FFF;
+    margin-top:50px;
+    margin-left:18px;
+    text-shadow:1px 0px 1px #000;
+}
+
+.information{
+    width:300px;
+    height:300px;
+    position:relative;
+    float:right;
+    margin-right: 150px;
+    margin-top:150px;
+    box-shadow:5px 5px 5px #000;
+
+}
+
+.information p{
+    color:#FFF;
+    font-size:18px;
+    text-shadow:1px 0px 1px #000;
+}
+
+.maps{
+    width:1220px;
+    height:500px;
+    margin-left:15px;
+    margin-top:15px;
+    margin-bottom:15px;
+    box-shadow: 10px 10px 10px #000;
+}
+
+h1{
+    color:#FFF;
+    margin-left:15px;
+    margin-top:20px;
+    margin-bottom:20px;
+    display:flex;
+    justify-content: center;
+}
+
+.rodape ul {
+    width:100%;
+    height:200px;
+    margin-top:100px;
+    display:flex;
+    justify-content: space-evenly;
+    list-style: none;
+    text-decoration:none;
+    color:#FFF;
+
+}
+
+.rodape a {
+    text-decoration:none;
+    color:#FFF;
+    padding-top:25px;
+    font-size:17px;
+    text-shadow:1px 0px 1px #FFF;
+}
